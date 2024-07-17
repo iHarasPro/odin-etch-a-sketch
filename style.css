@@ -1,0 +1,28 @@
+header {
+  margin-block: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+footer {
+  margin-block: 1rem;
+  text-align: center;
+}
+
+button {
+  padding-block:  0.5rem;
+  padding-inline: 1.5rem;
+}
+
+main {
+  display: flex;
+  border: 0.2rem double black;
+}
+
+.gridRow {
+  flex: 1 0 0;
+}
+
+.gridCell {
+  aspect-ratio: 1;
+}
